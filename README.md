@@ -86,7 +86,7 @@ Step 6: Create the Project.
 
  5. Activate the virtual environment:
     
- - **Windows:**
+  - **Windows:**
 
      ```ini
      venv\Scripts\activate
@@ -110,7 +110,7 @@ Step 7: Set Up the .env File.
 -----------------------------
 
  1. Create a file named .env in the project directory:
- 2. 
+  
       ```ini
       touch .env
       ```
