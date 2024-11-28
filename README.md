@@ -72,7 +72,7 @@ Step 6: Create the Project.
       ```
 
  3. Create a virtual environment:
- 4. 
+ 
       ```ini
       python -m venv venv
       ```
