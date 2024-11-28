@@ -13,18 +13,22 @@ Step 1: Create a Twitter Developer Account.
  4. Once approved, you’ll gain access to the Developer Portal.
 
 
-Step 2: Create a Twitter Developer App
- 1. Log in to the Twitter Developer Portal(https://developer.x.com/en).
+Step 2: Create a Twitter Developer App.
+---------------------------------------
+
+ 1. Log in to the [Twitter Developer Portal](https://developer.x.com/en).
  2. Go to Projects & Apps → Create a New Project.
  3. Fill in the details:
-  -> Name: Provide a name for your project (e.g., "Tweet with Python").
-  -> Use Case: Select "Making a bot" or "Testing API access."
+  - Name: Provide a name for your project (e.g., "Tweet with Python").
+  - Use Case: Select "Making a bot" or "Testing API access."
  4. After creating the project, click Add App.
  5. Configure your app:
-  -> Set the app permissions to Read and Write (or Read, Write, and Direct Messages for extended access).
+  - Set the app permissions to Read and Write (or Read, Write, and Direct Messages for extended access).
 
 
-Step 3: Generate API Keys and Tokens
+Step 3: Generate API Keys and Tokens.
+-------------------------------------
+
  1. In the Developer Portal, go to Projects & Apps → Select your app → Keys and Tokens.
  2. Generate the following credentials:
   -> API Key
