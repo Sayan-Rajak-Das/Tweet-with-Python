@@ -8,8 +8,8 @@ Step 1: Create a Twitter Developer Account.
  1. Go to the [Twitter Developer Portal](https://developer.x.com/en).
  2. Click Sign Up and log in with your existing Twitter account.
  3. Follow the steps to apply for a developer account:
-  -> Purpose: Select why you're using the API (e.g., “Testing the API for personal projects”).
-  -> Fill in details about your project.
+    - **Purpose:** Select why you're using the API (e.g., “Testing the API for personal projects”).
+    - Fill in details about your project.
  4. Once approved, you’ll gain access to the Developer Portal.
 
 
@@ -19,11 +19,11 @@ Step 2: Create a Twitter Developer App.
  1. Log in to the [Twitter Developer Portal](https://developer.x.com/en).
  2. Go to Projects & Apps → Create a New Project.
  3. Fill in the details:
-    - Name: Provide a name for your project (e.g., "Tweet with Python").
-    - Use Case: Select "Making a bot" or "Testing API access."
+    - **Name:** Provide a name for your project (e.g., "Tweet with Python").
+    - **Use Case:** Select "Making a bot" or "Testing API access."
  4. After creating the project, click Add App.
  5. Configure your app:
-    - Set the app permissions to Read and Write (or Read, Write, and Direct Messages for extended access).
+    - Set the app permissions to ***Read and Write*** (or Read, Write, and Direct Messages for extended access).
 
 
 Step 3: Generate API Keys and Tokens.
@@ -31,53 +31,68 @@ Step 3: Generate API Keys and Tokens.
 
  1. In the Developer Portal, go to Projects & Apps → Select your app → Keys and Tokens.
  2. Generate the following credentials:
-  -> API Key
-  -> API Secret Key
-  -> Access Token
-  -> Access Token Secret
-  -> Bearer Token (for OAuth 2.0)
+    - ***API Key***
+    - ***API Secret Key***
+    - ***Access Token***
+    - ***Access Token Secret***
+    - ***Bearer Token*** (for OAuth 2.0)
  3. Copy these values and store them securely (you’ll use them in your Python project).
 
 
-Step 4: Set Up User Authentication
+Step 4: Set Up User Authentication.
+-----------------------------------
+
  1. In your app settings, ensure User Authentication Settings is set up:
-  -> Click Set up under User Authentication Settings.
-  -> Choose Web App, Automated App, or Bot.
-  -> Provide a Callback URL (e.g., http://localhost:8000/callback) and a Website URL (e.g., https://example.com).
-  -> Save the changes.
+    - Click Set up under User Authentication Settings.
+    - Choose Web App, Automated App, or Bot.
+    - Provide a Callback URL (e.g., ***http://localhost:8000/callback***) and a Website URL (e.g., ***https://example.com***).
+    - Save the changes.
  2. Regenerate your Access Token and Access Token Secret to ensure they match the updated permissions.
 
 
-Step 5: Set Up Your Local Development Environment
+Step 5: Set Up Your Local Development Environment.
+--------------------------------------------------
+
  1. Install Python:
-  -> Download and install Python from python.org(https://www.python.org/).
-  -> Ensure Python is added to your system's PATH during installation.
+    - Download and install Python from [python.org](https://www.python.org/).
+    - Ensure Python is added to your system's PATH during installation.
  2. Install Visual Studio Code (VSCode) (Optional):
-  -> Download and install VSCode(https://code.visualstudio.com/).
-  -> Install the Python extension from the Extensions Marketplace.
+    - Download and install [VSCode](https://code.visualstudio.com/).
+    - Install the Python extension from the Extensions Marketplace.
 
 
-Step 6: Create the Project
+Step 6: Create the Project.
+---------------------------
 
  1. Open a terminal and create a project directory:
-  bash:
-   mkdir tweet_with_python
-   cd tweet_with_python
+    
+      ```ini
+      mkdir tweet_with_python
+      cd tweet_with_python
+      ```
 
- 2. Create a virtual environment:
-  bash:
-   python -m venv venv
+ 3. Create a virtual environment:
+ 4. 
+      ```ini
+      python -m venv venv
+      ```
 
- 3. Activate the virtual environment:
-  *Windows:
-   bash:
-    venv\Scripts\activate
-  *Mac/Linux:
-   bash:
-    source venv/bin/activate
- 4. Install the required libraries:
+ 5. Activate the virtual environment:
+  **Windows:**
+
+     ```ini
+     venv\Scripts\activate
+     ```
+    
+   **Mac/Linux:**
+
+     ```ini
+     source venv/bin/activate
+     ```
+     
+ 6. Install the required libraries:
   bash:
-   pip install tweepy python-dotenv
+   ``pip install tweepy python-dotenv``
 
 
 Step 7: Set Up the .env File
